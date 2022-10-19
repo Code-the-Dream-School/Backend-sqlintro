@@ -28,9 +28,9 @@ AND quantity > 10;
 corresponding to rows from the Supplier and Category tables.  Paste your three SQL statements below.
 
 INSERT INTO Products
-VALUES (NULL, "JALAPENOS", 19, 8, "1 X 28oz", 10.99),
-	   (NULL, "Pepper Jack cheese", 1, 6, "1 x 30 slices", 5.99),
-       (NULL, "Busch beer", 16, 1, "1 x 18oz cans", 15.99);
+VALUES (NULL, "JALAPENOS", 2, 2, "1 X 28oz", 10.99),
+	   (NULL, "Pepper Jack cheese", 5, 4, "1 x 30 slices", 5.99),
+       (NULL, "Busch beer", 1, 1, "1 x 18oz cans", 15.99);
 
 (5) Update the two top rows of the Products Table to increase the price by 1.50. (Get SQL to do the addition for you.)  Paste your SQL statement below.
 
