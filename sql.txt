@@ -6,7 +6,7 @@ SELECT CustomerName,
         Country
 FROM Customers
 ORDER BY country
-LIMIT 20
+LIMIT 10
 OFFSET 10;
 
 (2) Select all columns from the Customer table where the ContactName starts with A.  Paste your SQL statement below.
