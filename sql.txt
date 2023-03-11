@@ -21,4 +21,8 @@ INSERT INTO Products (ProductName, SupplierID, CategoryID, Unit, Price) VALUES (
 
 (5) Update the two top rows of the Products Table to increase the price by 1.50. (Get SQL to do the addition for you.)  Paste your SQL statement below.
 
+Update Products SET price=1.50 WHERE ProductID<=2;
+
 (6) Delete all rows of the Products Table where the price is less than 7.00. Paste your SQL statement below.
+
+DELETE FROM Products WHERE price<7;
